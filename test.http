@@ -1,0 +1,21 @@
+### CREATE A USERS
+POST localhost:8080/api/v1/register
+Content-Type: application/json
+
+{
+  "username": "sammidev",
+  "password": "sammidev",
+  "full_name": "sammi aldhi yanto",
+  "email": "sammidev@gmail.com"
+}
+
+
+### Login
+POST localhost:8080/api/v1/login
+Content-Type: application/json
+Accept: application/json
+
+{
+  "username": "sammidev",
+  "password": "sammidev"
+}
